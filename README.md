@@ -113,8 +113,8 @@ VenturaFund/
 1. **Clone the repository**
 
 ```
-git clone https://github.com/RM1338/VenturaFund.git
-cd VenturaFund
+git clone https://github.com/YourUsername/PassGuard.git
+cd PassGuard
 ```
 
 2. **Open in browser**
