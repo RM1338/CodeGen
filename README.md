@@ -21,12 +21,11 @@
 
 ## 🚀 Technologies Used
 
-- **HTML5** - Structure and semantic markup
-- **CSS3** - Custom styling and animations
-- **Bootstrap 5.3.2** - Responsive grid system and components
-- **Font Awesome 6.4.0** - Icons and visual elements
-- **Google Fonts (Inter)** - Modern, clean typography
-- **JavaScript** - Form handling and interactivity (ready for enhancement)
+- **C (ISO C99)** – Core logic, password encryption and user management
+- **raylib** – Lightweight C graphics library for GUI and easy rendering
+- **Standard C File I/O** – Save and load user data for persistence
+- **GCC/Clang** – Compiler support for building on any major OS
+- **Makefile** – Simplified build and execution
 
 ---
 
@@ -141,7 +140,7 @@ gcc main.c -o passguard -lraylib -lm -lpthread -ldl -lrt -lX11
 - Edit color themes and UI components directly in the `main.c` file or your raylib settings.
 
 ### Adjusting Password Settings
-- Change encryption key, minimum password length, or validation requirements by modifying constants at the top of `main.c`:
+- Change encryption key, minimum password length, or validation requirements by modifying constants at the top of `main.c`:  
     ```
     #define ENCRYPTION_KEY 5
     #define MIN_PASSWORD_LENGTH 6
@@ -166,7 +165,7 @@ gcc main.c -o passguard -lraylib -lm -lpthread -ldl -lrt -lX11
 - Email notifications (for registration, password changes, account activity)  
 - UI enhancements: modern design, light/dark theme  
 - Import/export password database (CSV/JSON backup)  
-- Cloud sync (optional) for cross-device password management  
+- Cloud sync for cross-device password management  
 - Accessibility and localization (multi-language support)  
 - Integration with browser extensions or autofill services  
 
