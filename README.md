@@ -117,13 +117,19 @@ git clone https://github.com/YourUsername/PassGuard.git
 cd PassGuard
 ```
 
-2. **Open in browser**
-- Simply open `index.html` in your browser  
-- Or use a local server:
 
-Using Python:
+2. **Compile the project**
+
 ```
-python -m http.server 8000
+gcc main.c -o passguard -lraylib -lm -lpthread -ldl -lrt -lX11
+```
+*(Adjust compile flags if required for your OS and raylib version.)*
+
+
+3. **Run the application**
+
+```
+./passguard
 ```
 
 Using Node.js:
