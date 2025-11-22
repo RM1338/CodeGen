@@ -159,17 +159,22 @@ Customize in `styles.css`:
 
 ## 🔮 Future Enhancements
 
-- Backend integration (Node.js/PHP/Python)
-- Database integration (MongoDB/MySQL)
-- Payment gateway integration (Stripe, PayPal, Razorpay)
-- User authentication and authorization
-- Campaign analytics dashboard
-- Real-time donation tracking
-- Email notifications
-- Social media sharing integration
-- Campaign comments and Q&A section
-- Advanced search and filtering
-- Mobile app (React Native/Flutter)
+- Database integration (SQLite, MySQL) for large-scale user storage  
+- Backend integration (Node.js, Python, etc.) for multi-user support  
+- Advanced encryption (bcrypt, Argon2, SHA-256) for stronger password protection  
+- Web or mobile app (React Native / Flutter) – build for Android/iOS devices  
+- Multi-factor authentication (MFA) for increased security  
+- User authorization levels (e.g., admin tools)  
+- Password strength meter and checker  
+- Password generator for secure random passwords  
+- Activity logging and audit trails for user actions  
+- Session management and automatic logout  
+- Email notifications (for registration, password changes, account activity)  
+- UI enhancements: modern design, light/dark theme  
+- Import/export password database (CSV/JSON backup)  
+- Cloud sync (optional) for cross-device password management  
+- Accessibility and localization (multi-language support)  
+- Integration with browser extensions or autofill services  
 
 ---
 
