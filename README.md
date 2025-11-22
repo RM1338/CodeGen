@@ -105,8 +105,8 @@ VenturaFund/
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- A local web server (optional, for testing)
+- GCC or compatible C compiler
+- raylib library installed on your system
 
 ### Steps
 
