@@ -132,36 +132,24 @@ gcc main.c -o passguard -lraylib -lm -lpthread -ldl -lrt -lX11
 ./passguard
 ```
 
-Using Node.js:
-```
-npx http-server
-```
-
-3. **Access the site**
-
-Visit:  
-`http://localhost:8000`
 
 ---
 
 ## 🎨 Customization
 
-### Colors
-Customize in `styles.css`:
+### Colors & UI
+- Edit color themes and UI components directly in the `main.c` file or your raylib settings.
 
-```css
-:root {
-  --primary-color: #2ecc71;
-  --secondary-color: #27ae60;
-}
-```
+### Adjusting Password Settings
+- Change encryption key, minimum password length, or validation requirements by modifying constants at the top of `main.c`:
+    ```
+    #define ENCRYPTION_KEY 5
+    #define MIN_PASSWORD_LENGTH 6
+    ```
 
-### Adding New Campaigns
-1. Create a new HTML file in the appropriate `campaigns/` folder  
-2. Follow the existing campaign template structure  
-3. Update the category listing page to link to your new campaign  
+### Adding Users (for testing)
+- Run the application, use the 'Register' feature, and input unique usernames and passwords that meet criteria.
 
----
 
 ## 🔮 Future Enhancements
 
