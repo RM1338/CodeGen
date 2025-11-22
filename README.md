@@ -19,7 +19,7 @@
 - **Simple Sorting & Searching**: Organize and find users easily with built-in algorithms
 
 ---
-
+s
 ## 🚀 Technologies Used
 
 - **C (ISO C99)** – Core logic, password encryption and user management
@@ -33,71 +33,24 @@
 ## 📁 Project Structure
 
 ```
-VenturaFund/
-├── index.html # Homepage
-├── signIn.html # Sign-in page
-├── signUp.html # Registration page
-├── script.js # Javascript
-├── discover.html # Main Campaigns Page
-├── donation.html # Universal donation page
-├── formDetails.js # Form Validation Javascript
-├── styles.css # Main stylesheet
-├── images/ # Image assets
-│   ├── ArtSupplies.jpg
-│   ├── Cancer.jpg
-│   ├── Business.jpg
-│   ├── Emergency.jpg
-│   ├── Dialysis.jpg
-│   └── EarthquakeRelief.jpg
-│   └── EcoCafe.jpg
-│   └── Educational Featured.jpg
-│   └── Educational.jpg
-│   └── FireRelief.jpg
-│   └── FloodRelief.jpg
-│   └── Heart.jpg
-│   └── Hero.jpg
-│   └── JewelryWorkshop.jpg
-│   └── Medical Featured.jpg
-│   └── Medical.jpg
-│   └── MobileBakery.jpg
-│   └── RescueSupport.jpg
-│   └── Sarah.jpg
-│   └── Schoralship.jpg
-│   └── STEMLAB.jpg
-│   └── TechStartup.jpg
-├── categories/
-│   ├── medical/
-│   │   ├── medicalCampaigns.html
-│   │   └── campaigns/
-│   │       ├── Cancer.html
-│   │       ├── Dialysis.html
-│   │       ├── Heart.html
-│   │       └── Sarah.html
-│   ├── educational/
-│   │   ├── educationalCampaigns.html
-│   │   └── campaigns/
-│   │       ├── SchoolLibrary.html
-│   │       ├── STEMLab.html
-│   │       ├── Scholarship.html
-│   │       └── ArtSupplies.html
-│   ├── business/
-│   │   ├── businessCampaigns.html
-│   │   └── campaigns/
-│   │       ├── EcoCafe.html
-│   │       ├── MobileBakery.html
-│   │       ├── TechStartup.html
-│   │       └── JewelryWorkshop.html
-│   └── emergency/
-│       ├── emergencyCampaigns.html
-│       └── campaigns/
-│           ├── FloodRelief.html
-│           ├── FireRelief.html
-│           ├── EarthquakeRelief.html
-│           └── RescueSupport.html
-└── start-a-campaign/
-    ├── startCampaign.html
-    ├── storyMedia.html
-    └── reviewLaunch.html
+PassGuard/
+├── .vscode/
+│   └── launch.json
+├── githubAssets/
+│   ├── banner.jpg
+│   ├── errorMessage.gif
+│   ├── loadsaveUsers.gif
+│   ├── Main Menu.png
+│   ├── searchUsers.gif
+│   ├── userLogin.gif
+│   ├── userRegistration.gif
+│   └── viewUsers.png
+├── Project Documentation/
+│   └── URK25CS1106 - (CodeGen PPS Micro Project PPT).pdf
+├── passgaurd.c
+├── passgaurd.exe
+├── README.md
+└── users.dat
 ```
 
 ---
@@ -174,14 +127,26 @@ gcc main.c -o passguard -lraylib -lm -lpthread -ldl -lrt -lX11
 
 ## 👀 Quick Peek
 
-### Homepage
-![Homepage]()
+### Main Menu Screen
+![Main Menu](./githubAssets/Main%20Menu.png)
 
-### Campaign Listing
-![Campaign Listing]()
+### User Registration Screen
+![User Registration](./githubAssets/userRegistration.gif)
 
-### Donation Page
-![Donation Page]()
+### User Login Screen
+![User Login](./githubAssets/userLogin.gif)
+
+### View Users Screen
+![View Users](./githubAssets/viewUsers.png)
+
+### Search Users Screen
+![Search Users](./githubAssets/searchUsers.gif)
+
+### Error Message
+![Error Message](./githubAssets/errorMessage.gif)
+
+### Save & Load Users Screen
+![Save & Load Users](./githubAssets/saveloadUsers.gif)
 
 ---
 
